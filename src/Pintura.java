@@ -12,7 +12,7 @@ public class Pintura {
         return cobertura;
     }
 
-    public double rellenar(double area){
-        return area/cobertura;
+    public double rellenar(Forma fo){
+        return fo.getArea()/cobertura;
     }
 }
